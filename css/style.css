@@ -1,9 +1,9 @@
 :root {
-  --bcg-color: #363535;
-  --primary-color: #675f77;
+  --bcg-color: #ece7e7;
+  --primary-color: #8878d3;
   --border: 8px;
   --text-color: #ffffff;
-  --border-color: #e4c5c5;
+  --border-color: #9cd811;
 }
 
 * {
@@ -18,13 +18,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--bcg-color);
+  background-image: url("../photo/background.jpeg");
   overflow: hidden; /* Prevent scrolling issues */
 }
 .box {
-  background-color: var(--primary-color);
+  background: linear-gradient(45deg, rgb(10, 145, 207), rgb(199, 34, 34));
+
   padding: 30px;
   width: 400px;
+  box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.5);
 
   border-radius: var(--border);
 }
